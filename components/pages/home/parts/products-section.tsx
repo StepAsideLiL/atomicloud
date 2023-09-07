@@ -1,6 +1,6 @@
 "use client";
 
-import { useProductStore } from "@/lib/app-stores/store";
+import { useHomePageStore } from "@/lib/app-stores/home-page-store";
 import clsx from "clsx";
 import { useInView } from "framer-motion";
 import Image from "next/image";
@@ -15,7 +15,7 @@ export const ProductCard = ({
 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "-45% 0px -45% 0px" });
-  const setInViewProduct = useProductStore((state) => state.setInViewProduct);
+  const setInViewProduct = useHomePageStore((state) => state.setInViewProduct);
 
   useEffect(() => {
     if (isInView) {
@@ -62,7 +62,7 @@ const CardContainer = ({
   children: React.ReactNode;
   id: string;
 }) => {
-  const inViewProduct = useProductStore((state) => state.inViewProduct);
+  const inViewProduct = useHomePageStore((state) => state.inViewProduct);
 
   return (
     <div

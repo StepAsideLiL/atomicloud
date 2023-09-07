@@ -1,6 +1,6 @@
 "use client";
 
-import { ProductCard, productsDetail } from "./parts/product-card";
+import { ProductCard, productsDetail } from "./parts/products-section";
 
 const Products = () => {
   return (
