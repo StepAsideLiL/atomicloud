@@ -149,45 +149,45 @@ export const FileCard = ({ id }: { id: string }) => {
 export const productsDetail = [
   {
     id: "1",
-    title: "Database",
+    title: "Atomic Database",
     description: "Easily scaleable database for enterprise and personal use",
     image: DatabaseCard,
   },
   {
     id: "2",
-    title: "Authentication",
+    title: "Atomic Auth",
     description:
       "Implement hassle free authentication for web and mobile applications",
     image: AuthenticationCard,
   },
   {
     id: "3",
-    title: "Headless CMS",
+    title: "Headless Atomic CMS",
     description: "An easy and powerful Headless CMS for managing content",
     image: HCMSCard,
   },
   {
     id: "4",
-    title: "Headless E-commerce",
+    title: "Headless Atomic E-commerce",
     description: "Powerful E-commerce backend with payment API and support",
     image: HEcommerceCard,
   },
   {
     id: "5",
-    title: "AI Model",
+    title: "Atomic AI Model",
     description: "Powerful AI Models for providing useful services",
     image: AIModelCard,
   },
   {
     id: "6",
-    title: "Image and Video Storage",
+    title: "Atomic Image and Video Storage",
     description:
       "Easily store the image and video content for web and mobile application",
     image: ImageAndViderCard,
   },
   {
     id: "7",
-    title: "File Storage",
+    title: "Atomic File Storage",
     description: "Store any file format for web and mobile application",
     image: FileCard,
   },
