@@ -4,6 +4,11 @@ import Hosting from "@/components/pages/home/Hosting";
 import Products from "@/components/pages/home/Products";
 import Services from "@/components/pages/home/Services";
 import Main from "@/components/site-ui/Main";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home - AtomiCloud",
+};
 
 const HomePage = () => {
   return (
